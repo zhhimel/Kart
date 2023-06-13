@@ -14,6 +14,7 @@ function Navbars() {
                             width="30"
                             height="30"
                         />
+                        
                     </Navbar.Brand>
                     <Navbar.Brand href="#home">KART</Navbar.Brand>
                 </div>
