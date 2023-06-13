@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function Navbars() {
     return (
         <Navbar bg="light" variant="light">
-            <Container>
+            <Container className='mx-7 my-4'>
                 <div className='d-flex align-items-center'>
                     <Navbar.Brand href="#home">
                         <img
@@ -14,9 +14,9 @@ function Navbars() {
                             width="30"
                             height="30"
                         />
-                        
+
                     </Navbar.Brand>
-                    <Navbar.Brand href="#home">KART</Navbar.Brand>
+                    <Navbar.Brand href="#home" className=''>KART</Navbar.Brand>
                 </div>
 
                 <Nav className="me-auto">
