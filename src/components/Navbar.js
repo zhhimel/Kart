@@ -4,8 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navbars() {
     return (
-        <Navbar bg="light" variant="light">
-            <Container className='mx-7 my-4'>
+        <Navbar fixed='top' bg="light" variant="light" className=''>
+            <Container className='mx-7 my-1'>
                 <div className='d-flex align-items-center'>
                     <Navbar.Brand href="#home">
                         <img

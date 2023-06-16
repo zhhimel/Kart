@@ -1,21 +1,21 @@
 const sliderdatas=[
     {
-        heading:"",
-        desciption:"",
+        heading:"Cool Dude Hoodie",
+        desciption:"Super Comfortable and amazing design",
         img:'./Demo/hoodie.jpg',
-        price: 150,
+        price: "$100",
     },
     {
-        heading:"",
-        desciption:"",
+        heading:"Eye-Catching Shoes",
+        desciption:"Authentic Adidas",
         img:'./Demo/shoes.jpg',
-        price: 150,
+        price: "$700",
     },
     {
-        heading:"",
-        desciption:"",
+        heading:"Get Your Apple Watch",
+        desciption:"New era of smartness",
         img:"./Demo/watch.jpg",
-        price: 150,
+        price: "$400",
     },
    
 ]
