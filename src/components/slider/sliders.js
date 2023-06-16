@@ -7,7 +7,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 const Sliders = () => {
     return (
-        <Container className='d-flex justify-content-center align-items-center p-4 rounded' style={{ backgroundColor: 'lightblue', width:'1000px', height: '500px', marginTop:"8rem" ,marginBottom:"4rem"}}>
+        <Container className='d-flex justify-content-center align-items-center p-4 rounded' style={{ backgroundColor: 'lightblue', width:'1000px', height: '500px', marginTop:"2rem",marginBottom:"5rem"}}>
             <Carousel >
                 {sliderdatas.map((data) => (
                     

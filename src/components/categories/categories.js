@@ -7,15 +7,15 @@ import Col from 'react-bootstrap/Col';
 
 const Categories = () => {
   return (
-    <Container  id='categories'>
-      <Row className='' >
+    <Container  id='categories' style={{}}>
+      <Row className='m-4'>
         <Col className='d-flex justify-content-around'>
           {
             datas.map((data) => (
-             <div xs={3} className='d-flex align-items-center gap-3 rounded'  style={{backgroundColor:data.bg,padding:"15px"}}>
+             <Col xs={3}  className='d-flex align-items-center justify-content-around m-2 rounded'  style={{backgroundColor:data.bg,padding:"15px"}}>
                 <a href={data.id} style={{textDecoration:"none",color:"black"}} ><h1 >{data.Name} </h1></a>
                 <img src={data.img} alt='' className='d-block' style={{height:"50px",width:"50px"}} /> 
-             </div>
+             </Col>
             ))
           }
         </Col>
