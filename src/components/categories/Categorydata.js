@@ -2,27 +2,33 @@ const datas=[
     {
         Name: "Hoody",
         img:"./Democategory/hoodie.jpg",
-        id: "#hoodie"
+        id: "#hoodie",
+        bg: "burlywood"
     },
     {
         Name: "Trouser",
         img:"./Democategory/trouser.jpg",
-        id: "#trouser"
+        id: "#trouser",
+        bg: "orange"
+        
     },
     {
         Name: "T-shirt",
         img:"./Democategory/tshirt.jpg",
-        id: "#tshirt"
+        id: "#tshirt",
+        bg: "orchid"
     },
     {
         Name: "Shoe",
         img:"./Democategory/shoe.jpg",
-        id: "#shoe"
+        id: "#shoe",
+        bg: "grey"
     },
     {
         Name: "Watch",
         img:"./Demo/watch.jpg",
-        id: "#watch"
+        id: "#watch",
+        bg: "pink"
     },
 ];
 export default datas;

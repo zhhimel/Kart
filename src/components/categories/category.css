@@ -1,3 +1,6 @@
 .bg{
     border: 2px solid red;
 }
+.col-spacing{
+    margin:10px;
+}
